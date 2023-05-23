@@ -8,7 +8,7 @@ works fine on elementor higher than 3.6
   
   **Requires PHP:** 7.4    
 **Requires at least:** 4.4    
-**Tested up to:** 5.0  
+**Tested on wordpress up to:** 6.2.2  
 **License:** GPLv3  
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.html     
 
@@ -58,77 +58,8 @@ Done! :)
 * For the time being, any changes made to both of the above can be viewed on the frontend of the site. A fix is being sought and will be implemented as soon as a viable solution is found!
 
 ## Changelog ##
-### 1.1.6 - 2018-12-10  ###
+### 2023-05-22  ### 
+* Fixed issues after updating/upgrading the elmentor plugin to 3.6 or higher caused due to debrecated functions still not updated 
+the new functions replaced as mentioned in 
+https://developers.elementor.com/v3-6-planned-deprecations/ 
 
-* Tested with WP 5.0
-
-
-### 1.1.5 - 2018-11-29  ###
-
-* Fix possible issue with multiple notices
-
-
-### 1.1.4 - 2018-11-27  ###
-
-* Fixed version
-
-
-### 1.1.3 - 2018-11-27  ###
-
-* Add notice for recommended theme
-
-
-### 1.1.2 - 2017-11-27  ###
-
-* Fix TGM strings for recommended plugins.
-
-
-### 1.1.1 - 2017-11-16  ###
-
-* Add recommendation for Elementor Addons & Widgets. 
-* Tested up to 4.9.
-
-
-### 1.1.0 - 2017-09-28  ###
-
-* Added Themeisle SDK.
-* Added Continuous Integration.
-* Changed contributors.
-
-
-### 1.0.7 ###
-* FIXED: Missing widget icon due to updated icons in Elementor   
-* FIXED: Disbaled the _content_template() functions as they are not in use.   
-* TWEAK: Moved Branding and Search widgets into their own modules for future enhancements
-
-### 1.0.6 ###
-* FIXED: Bug on the new UI column selectors in Elementor V1.5.0 - removed the z-index hack as this will now be taken care of by core!
-
-### 1.0.5 ###
-* FIXED: Fatal error when active theme is Element Theme!
-
-### 1.0.4 ###
-* NEW: Added options for alignment and padding for submenu items
-
-### 1.0.3 ###
-* FIXED: Bug that cause drop down menu to fall behind elements in some designs.
-
-### 1.0.2 ###
-* Enhanced and improved how menus are styled.
-* Changed behavior of dropdown menu floats - by default they now float to the right. So left and center aligned menu will float right and right aligned menus will float left.
-* NEW: Added option for mobile menu item alignment.
-* NEW: Added background setting for the navbar
-* NEW: Added a Fullscreen Overlay Menu
-* NEW: Added a search box widget - this is still a work in progress
-* NEW: Added a basic MegaMenu options
-* TWEAKES: Added and tweaked some styling options for the Default NavMenu module.
-
-### 1.0.1 ###
-* NEW: Revised the plugin structure to me more modular and facilitate more element additions.
-* NEW: Created a plugin specific elements category.
-* NEW: Added option to select a menu location (up to 2) with both being mobile ready!
-* NEW: Added a site branding module - you can now insert either the Site Title or the set Custom Logo in your headers.
-* TWEAKS: Tiny but significant tweaks to make the whole experience more user friendly :)
-
-### 1.0.0 ###
-* Initial release.
