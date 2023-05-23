@@ -1,7 +1,10 @@
 # NavMenu Addon For Elementor #
 
 **main developers:** [themeisle](https://profiles.wordpress.org/themeisle), [codeinwp](https://profiles.wordpress.org/codeinwp)  
+**updated by:** [mahm01d](https://linkedin.com/in/mahm01d)
 **Tags:** elementor, pagebuilder, page builder, page builder menu, page builder navmenu, menu builder, builder navigation menus, navigation, menus, navmenu, nav menu    
+works fine on elementor higher than 3.6 
+**Requires PHP:** 7.4    
 **Requires at least:** 4.4    
 **Tested up to:** 5.0  
 **License:** GPLv3  
